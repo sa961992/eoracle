@@ -1,0 +1,601 @@
+html,body{
+	width: 100%;
+    height: 98%;
+	 -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	background-color: #ebebeb;
+	margin:0px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...}*/
+
+/* Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...}*/
+
+.centeredMainLayout {
+	border: 8px solid white;
+    width: 87%;
+    min-height:70%;
+	/*max-height:100%;*/
+    margin: auto;
+    padding: 2%;
+	font-size:16px;
+	background-color:white;
+}
+
+
+.centeredMainLayoutTabs{
+    width: 92%;
+    margin: auto;
+	height:40px;
+}
+
+.centeredMainLayoutTabs span{
+	font-family: Helvetica;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+	padding-top: 2.5%;
+    padding-bottom: 0.25%;
+	cursor:pointer;
+	font-size: 14px;
+}
+
+.centeredMainLayoutTabs span:hover{
+	background-color: #ebebeb;
+    padding-top: 2.5%;
+    padding-bottom: 0.25%;
+	padding-left: 2.5%;
+    padding-right: 2.5%;
+	cursor:pointer;
+}
+
+.centeredMainLayoutTabs span:active{
+	border-bottom: 1.5px solid #3366FF;
+}
+
+.copyRightDiv{
+	font-family: Helvetica;
+    font-size: 12px;
+    width: 100%;
+    margin: auto;
+    text-align: right;
+    background-color: #4d4d4d;
+    border: 8px solid #4d4d4d;
+    padding: 0.5% 0%;
+    color: white;
+}
+
+.extraSpaceSpan{
+	padding-left: 2%;
+}
+
+
+.tabsPortalMaster{
+	width: 92%;
+    height: 85%;
+    margin: auto;
+}
+
+#pslogoimg{
+	width: 100%;
+}
+
+.LogoDivParent{
+	height: 50%;
+    /*position: relative;*/
+}
+
+.LogoDivChild{
+	width: 20%;
+    display: inline-block;
+    height: 20%;
+}
+
+.LogoDivDesc{
+	width: 96%;
+    height: 400px;/*90px*/
+    border: 1px solid #e9e9e9;
+    /*padding: 1.5%;*/
+    font-family: Helvetica;
+    display: inline-block;
+    vertical-align: top;
+	background-color: #f6f6f6;
+    border-radius: 30px;
+	font-weight: lighter;
+}
+
+.LogoDivDescInner{
+	height: 385px;
+	line-height:2.5;
+	color:grey;
+}
+
+.homeCofigTabs{
+	width:100%;
+	margin-top: 10%;
+	text-align: center;
+	font-family: Helvetica;
+	color: grey;
+	font-weight: bold;
+}
+
+.configLbl{
+	margin-bottom: 15%;
+	font-size:16px;
+}
+
+.configBtn{
+	width: 25%;
+    border-radius: 5px;
+    background-color: #B1000E;
+    color: white;
+    padding: 2%;
+    cursor: pointer;
+    margin: auto;
+    font-family: Helvetica;
+    font-size: 14px;
+	font-weight: lighter;
+	/*position: relative;*/
+}
+
+
+
+.configBtn:hover{
+    background-color: #c50313;
+}
+
+.seperatorTd{
+	border-left: 1px solid #c8c8c8;
+}
+
+.defHighlightTab{
+	background-color: #c02;
+}
+
+.noneDisp{
+	display:none;
+}
+
+input:hover{
+	background-color : #f1f1f1;
+}
+
+input{
+	padding: 5px;
+    border: 0.5px solid grey;
+    width: 80%;
+	font-family: Helvetica;
+}
+
+input:focus{
+	background-color : #f1f1f1;
+	border: 0.5px solid GREY;
+	outline:none;
+}
+
+.basicTableCss{
+	WIDTH: 100%;
+}
+
+.basicTableCss td, .monitorSysStat td{
+	padding:2%;
+}
+
+#monitorLeftPane span,.monitorSysStat span{
+	font-family: Helvetica;
+	font-weight:lighter;
+	color:grey;
+}
+
+.divHeader{
+	font-family: Helvetica;
+	font-size: 16px;
+	font-weight:bold;
+}
+
+.monitorSysStat{
+	WIDTH: 100%;
+}
+
+#monitorLeftPane,#monitorRightPane{
+	width : 40%;
+}
+
+#monitorLeftPane{
+	display: inline-block;
+}
+
+#monitorRightPane{
+	float: right;	
+	height: 400px;
+}
+
+#monitorRightPaneinnerdiv{
+	overflow: auto;
+    height: 100%;
+}
+
+.leftTdLabel{
+	width: 40%;
+}
+
+.rightTdLabel{
+	width: 60%;
+}
+
+.rightTdLabel1{
+	width: 60%;
+	background: #f0f0f0 !important;
+}
+
+.monitorSysStat .rightTdLabel{
+	background: #f0f0f0 !important;
+}
+
+.monitorAlarmMargin{
+	margin-top:5%;
+}
+
+.tabSeperatorSpan{
+	padding: 0 !important;
+    border-left: 1px solid #8f8f8f;
+}
+
+#monitorMasterDiv{
+	height:400px;
+	margin-top:2%;
+	margin-left:2%;
+}
+
+.medium_PS_Button{
+	font-family: Helvetica;
+    text-align: center;
+    line-height: 16px;
+    box-sizing: inherit;
+    background-color: #B1000E;
+    border: 2px solid #B1000E;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 1.5% 1%;
+    border-radius: 5px;
+    width: 50%;
+    height: auto;
+	white-space: pre;
+	font-weight:lighter;
+}
+
+.medium_PS_Button:hover{
+	background-color: #c50313;
+	border: 2px solid #c50313;
+}
+
+.centeredMainLayout span{
+	font-family: Helvetica;
+	font-weight:lighter;
+}
+
+.labeInptDiv{
+	width: 22.25%;
+	padding: 2%;
+}
+
+.labelInput{
+	padding: 5px;
+    border: 0.5px solid grey;
+    width: 85%;
+    float: left;
+}
+
+.labelInputTxt{
+	float: left;
+    width: 85%;
+	font-family: Helvetica;
+	font-weight:lighter;
+	color:grey;
+}
+
+.serviceContrlDiv div,.divMarginMedium{
+	margin:2%;
+}
+
+.OpCntrsCss{
+	width:55%;
+	margin-left: 5%;
+}
+
+.OpCntrsCss td{
+	padding:2% 0%;
+	width:50%;
+	vertical-align: middle;
+}
+
+.horizontalSpaceDiv{
+	padding:4%;	
+}
+
+.leftMargin{
+	margin-left:5%;
+}
+
+.autoWidthBut{
+	width:100% !important;
+}
+
+.senCaliCss{
+	width:65%;
+	margin-left: 6%;
+}
+
+.senCaliCss td{
+	padding:2% 0%;
+	width:50%;
+	vertical-align: middle;
+}
+
+.userInnerDiv{
+	margin: auto;
+    width: 50%;
+    font-family: Helvetica;
+	font-weight;lighter;
+}
+
+.userInnerTab{
+	width: 100%;
+}
+
+.med_dropdown{
+	outline: grey;
+    width: 80%;
+    text-align: center;
+    padding: 5px;
+    text-align-last: center;
+    font-family: Helvetica;
+	font-weight:lighter;
+}
+
+.userInnerTab td{
+	padding:3% 0%;
+}
+
+select:focus{
+	background-color : #f1f1f1;
+	border: 0.5px solid grey;
+	outline:none;
+}
+
+option:hover{background-color:red;}
+
+.snoUserInnertd{
+	width: 5%;
+    text-align: center;
+}
+
+.usernameUserInnertd{
+	width: 35%;
+    text-align: center;
+}
+
+.roleUserInnertd{
+	width: 45%;
+}
+
+.editbutUserInnertd{
+	width: 15%;
+}
+
+.medium_PS_Button_ext{
+	display: inline-block;
+    width: 15%;
+    padding: 1%;
+}
+
+.disable{
+	background-color: #d7d7d7;
+	cursor: no-drop;
+}
+
+.userNameDiv{
+	padding: 1.5% 0%;
+}
+
+div:focus{
+	background-color : #f1f1f1;
+	border: 0.5px solid grey;
+	outline:none;
+}
+
+#TopLogo_LogoutDiv{
+	background-color: #e5e5e5;
+    border-top: 3.5px solid #e60027;
+	height: 38px;
+	padding: 0% 4%;
+}
+
+#hitachilogoimg{
+	width: 130px;
+}
+
+#logoutdiv{
+	float: right;
+    padding: 0.25px 3%;
+    color: white;
+    background-color: #e60027;
+    height: 100%;
+    font-family: Helvetica;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 38px;
+	font-weight:lighter;
+}
+
+.centeredMainLayoutTabsOuter{
+	width: 100%;
+    height: 55px;
+    background-color: black;
+}
+
+.centeredMainLayoutTabs div{
+	border-bottom: 1.5px solid rgb(255, 26, 37);
+    font-family: Helvetica;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 50px;
+    color: white;
+}
+
+#logoutdiv:hover{
+	background-color: #c02;
+}
+
+.centeredLoginMainLayout {
+	border: 8px solid white;
+    width: 87%;
+    min-height: 70%;
+    margin: auto;
+    padding: 2%;
+    font-size: 16px;
+    background-color: white;
+}
+
+.loginModule{
+	width: 42%;height: auto;border: 1px solid #e9e9e9;padding: 1.5%;font-family: Helvetica;display: inline-block;vertical-align: top;border-radius: 10px;font-weight: lighter;color: grey;
+}
+
+.loginLabel{
+	color: #B1000E;
+    font-size: 350%;
+    margin-bottom: 10%;
+}
+
+.usernameLabel{
+	margin-bottom: 8%;
+}
+
+.usernameTxt{
+	border: 0.5px solid #dbdbdb;
+    width: 50%;
+    font-family: Helvetica;
+    padding: 10px;
+    color: grey;
+    margin-left: 25px;
+}
+
+.passwordLabel{
+	margin-bottom: 14%;
+}
+
+.passwordTxt{
+	border: 0.5px solid #dbdbdb;
+    width: 50%;
+    font-family: Helvetica;
+    padding: 10px;
+    color: grey;
+    margin-left: 28px;
+}
+
+.loginButton{
+	width: 10%;
+    border-radius: 5px;
+    background-color: #B1000E;
+    color: white;
+    padding: 2%;
+    cursor: pointer;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-align: center;
+}
+
+.loginButton:hover{
+    background-color: #c50313;
+}
+
+#infoBox{
+	position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    background-color: #00a040;
+    z-index: 99;
+    padding: 10px;
+    color: white;
+	opacity: 0.70;
+}
+
+.showInfoBox{
+	transition: opacity 2s linear;
+	visibility: visible;
+	display:block;
+	opacity: 0.70;
+	display:block;
+}
+
+.hiddenInfoBox {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 2s, opacity 2s linear;
+  display:none;
+}
+
+.mySlides  img{
+	height:400px;
+}
+
+.arrow{
+	border-bottom: 1.5px solid rgb(255, 26, 37);
+    font-family: Helvetica;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    font-size: 14px;
+    color: white;
+}
+
+.basicTableCss1{
+	width: 42%;
+    margin: auto;
+}
+
+.basicTableCss span {
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: grey;
+}
+
+.monitorSysStat,.monitorSysStat td,.monitorSysStat th {
+  border: 0.5px dashed grey;
+}
+
+.monitorSysStat {
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.draggable_operators_divs div{
+	width: 100px;
+    /* height: 10px; */
+    padding: 2px;
+    margin: 10px 0;
+}

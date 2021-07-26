@@ -1,0 +1,14 @@
+@font-face {
+  font-family: AbbVoice;
+  src: url(fonts/abbvoice_rg.ttf);
+}
+
+@font-face {
+  font-family: AbbVoiceBold;
+  src: url(fonts/abbvoice_bd.ttf);
+}
+
+@font-face {
+  font-family: AbbVoiceLight;
+  src: url(fonts/abbvoice_lt.ttf);
+}
